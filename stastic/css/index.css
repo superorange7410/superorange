@@ -60,7 +60,7 @@ img:hover{opacity: .9;cursor: pointer}
 
 
 /*page_default*/
-.page_default{background: #d19c96;}
+.page_default{background: #d19c96;font-weight: bold}
 .page_default .title{margin-top: 5vh;font-size: 25px;font-family:"思源黑体Light"}
 .page_default  span{font-size: 145px;line-height:180px;overflow: hidden;position: absolute;bottom: -5vh;}
 .page_default .titles{overflow: hidden;position: relative;font-family:"微软雅黑"}
