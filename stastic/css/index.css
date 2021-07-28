@@ -96,13 +96,20 @@ img:hover{opacity: .9;cursor: pointer}
 @media screen and (min-width: 100px) and (max-width: 800px) {
     .page_default span{font-size: 50px;bottom: -4vh;}
 }
-@media screen and (min-width: 1400px) and (max-width: 1900px) {
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+    .page2 .line1{bottom:500px;}
+    .page2 .line2{bottom:450px;}
+    .page2 .line3{bottom:350px;}
     .page_default span{font-size: 160px;bottom: -3vh;}
 }
-@media screen and (min-width: 1900px) and (max-width: 2200px) {
+@media screen and (min-width: 1800px) and (max-width: 2200px) {
     .page_default .title3 span{font-size: 30px}
     .page_default .author p{line-height: normal;font-size: 20px;margin: 0;}
     .page_default span{font-size: 200px;bottom: -2vh;}
+    .page2 .line1{bottom:850px;}
+    .page2 .line2{bottom:750px;}
+    .page2 .line3{bottom:650px;}
+    .page2 .line4{bottom:550px;}
 }
 
 
@@ -119,12 +126,12 @@ img:hover{opacity: .9;cursor: pointer}
 
 /*page2*/
 .page2{height: 100%;width: 100%;position: relative;  }
-.page2 .line{position: absolute;width: 110%;height: 120px;padding: 5px 12%;font-family: '微软雅黑';}
-.page2 .line span{font-size: 12px;font-family: 思源黑体Light;display: block;float: right }
-.page2 .line p{font-size: 14px;font-family: 思源黑体Light;}
+.page2 .line{position: absolute;width: 110%;height: 95px;margin: 0;padding: 5px 12%;font-family: '微软雅黑';}
+.page2 .line span{font-size: 12px;display: block;float: right }
+.page2 .line p{font-size: 12px;margin: 0}
 .page2 .line1{
     background: #fcc0c0;
-    bottom:450px;
+    bottom:600px;
     left: -100px;
     transform:rotate(-3deg);
     -ms-transform:rotate(-3deg); 	/* IE 9 */
@@ -135,42 +142,42 @@ img:hover{opacity: .9;cursor: pointer}
 }
 .page2 .line2{
     background: #D2BFCE;
-    bottom: 350px;
+    bottom: 520px;
     left: -100px;
-    transform:rotate(-3deg);
-    -ms-transform:rotate(-3deg); 	/* IE 9 */
-    -moz-transform:rotate(-3deg); 	/* Firefox */
-    -webkit-transform:rotate(-3deg); /* Safari 和 Chrome */
-    -o-transform:rotate(-3deg); 	/* Opera */
+    transform:rotate(1deg);
+    -ms-transform:rotate(1deg); 	/* IE 9 */
+    -moz-transform:rotate(1deg); 	/* Firefox */
+    -webkit-transform:rotate(1deg); /* Safari 和 Chrome */
+    -o-transform:rotate(1deg); 	/* Opera */
     z-index: 93;
 }
 .page2 .line3{
     background: #98919C;
-    bottom:600px;
+    bottom:400px;
     left: -100px;
-    transform:rotate(7deg);
-    -ms-transform:rotate(7deg); 	/* IE 9 */
-    -moz-transform:rotate(7deg); 	/* Firefox */
-    -webkit-transform:rotate(7deg); /* Safari 和 Chrome */
-    -o-transform:rotate(7deg); 	/* Opera */
+    transform:rotate(1deg);
+    -ms-transform:rotate(1deg); 	/* IE 9 */
+    -moz-transform:rotate(1deg); 	/* Firefox */
+    -webkit-transform:rotate(1deg); /* Safari 和 Chrome */
+    -o-transform:rotate(1deg); 	/* Opera */
     z-index: 94;
 }
 .page2 .line4{
     background: #9E5647;
-    bottom:450px;
+    bottom:300px;
     left: -80px;
-    transform:rotate(-20deg);
-    -ms-transform:rotate(-20deg); 	/* IE 9 */
-    -moz-transform:rotate(-20deg); 	/* Firefox */
-    -webkit-transform:rotate(-20deg); /* Safari 和 Chrome */
-    -o-transform:rotate(-20deg); 	/* Opera */
-    z-index: 90;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); 	/* IE 9 */
+    -moz-transform:rotate(-15deg); 	/* Firefox */
+    -webkit-transform:rotate(-15deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-15deg); 	/* Opera */
+    z-index: 95;
 }
 
 
 .page2 .line5{
     background: #fcc0c0;
-    bottom:300px;
+    bottom:150px;
     left: -80px;
     transform:rotate(-8deg);
     -ms-transform:rotate(-8deg); 	/* IE 9 */
@@ -182,7 +189,7 @@ img:hover{opacity: .9;cursor: pointer}
 
 .page2 .line6{
     background: #D2BFCE;
-    bottom:150px;
+    bottom:90px;
     left: -90px;
     transform:rotate(6deg);
     -ms-transform:rotate(6deg); 	/* IE 9 */
@@ -202,7 +209,7 @@ img:hover{opacity: .9;cursor: pointer}
     -moz-transform:rotate(-3deg); 	/* Firefox */
     -webkit-transform:rotate(-3deg); /* Safari 和 Chrome */
     -o-transform:rotate(-3deg); 	/* Opera */
-    z-index: 1;
+    z-index: 98;
 }
 
 
