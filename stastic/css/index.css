@@ -164,7 +164,7 @@ img:hover{opacity: .9;cursor: pointer}
     -moz-transform:rotate(-20deg); 	/* Firefox */
     -webkit-transform:rotate(-20deg); /* Safari 和 Chrome */
     -o-transform:rotate(-20deg); 	/* Opera */
-    z-index: 95;
+    z-index: 90;
 }
 
 
