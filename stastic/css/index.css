@@ -95,7 +95,7 @@ img:hover{opacity: .9;cursor: pointer}
 
 /*page2*/
 .page2{height: 100%;width: 100%;position: relative;  }
-.page2 .line{position: absolute;width: 110%;height: 100px;padding: 5px 12%;font-family: '微软雅黑';}
+.page2 .line{position: absolute;width: 110%;height: 120px;padding: 5px 12%;font-family: '微软雅黑';}
 .page2 .line span{font-size: 12px;font-family: 思源黑体Light;display: block;float: right }
 .page2 .line p{font-size: 14px;font-family: 思源黑体Light;}
 .page2 .line1{
