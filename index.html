@@ -575,7 +575,7 @@
             </div>
             <div class="charts">
 <!--                <p>政府所有育婴室内部设施总得分</p>-->
-<!--                <img src="stastic/images/chat6.png" alt="图2">-->
+                <img class="zoomify" src="stastic/images/long.png" alt="图2">
             </div>
         </div>
 
@@ -584,10 +584,10 @@
             <div class="col-md-7">
             <p>筛除所有内部设施条件均不可知的情况，商场内部设施的平均分为12.16分，其中有接近2/3的商场得分达到平均分以及平均分以上。得分最高的商场分别为海港城港威大厦、时代广场、新城市广场一期和又一城（16分），这些都是香港高端商场或者大型商场，他们以舒适的环境和良好的服务吸引人流量，所以也愿意花费大量资金或者精力去完善商场设施设备，其中就包括育婴室。低于平均分，尤其是4分以下的商场，大部分是一些规模相对较小的商场，这些商场一方面可能没有留下足够大的空间去设置育婴室，或者后期在育婴室内设施投入较少，另一方面它们可能在官网或者BBGAGA的“商场服务”信息提示少，受众的可获取信息程度低，所以得分较低。</p>
            </div>
-<!--            <div class="charts">-->
+            <div class="charts">
 <!--                <p>政府所有育婴室内部设施总得分</p>-->
-<!--                <img src="stastic/images/chat6.png" alt="图2">-->
-<!--            </div>-->
+                <img class="zoomify" src="stastic/images/long2.png" alt="图2">
+            </div>
         </div>
 
 
@@ -819,6 +819,25 @@
 
 </body>
 <script src="stastic/js/jquery.min.js"></script>
+<script>
+    function IsPC() {    //返回False为移动端
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ["Android", "iPhone",
+            "SymbianOS", "Windows Phone",
+            "iPad", "iPod"];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+    if(!IsPC()){
+        $("body").html("<div class='container' style='background:#FDC0C0'> <h1>请通过电脑端浏览器进行访问哦~</h1></div>")
+    }
+</script>
 <script src="stastic/js/scrollReveal.js"></script>
 
 <script src="stastic/js/superscroll/greensock/TweenMax.min.js"></script>
