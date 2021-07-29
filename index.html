@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>寻找城市角落的育婴室——对香港18区380个育婴室的数据调查</title>
-    <!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />-->
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stastic/css/index.css">
     <link rel="stylesheet" href="stastic/css/zoomify.min.css">
     <!--[if lt IE 10]>
     <div class="ie6" style="display: block;">本站不再支持您的浏览器，360、sogou等浏览器请切换到急速模式，或升级您的浏览器到 <a style="text-decoration: underline;" href="https://browsehappy.osfipin.com/" target="_blank">更高的版本</a>！以获得更好的观看效果。
-
         <i class="fa  fa-times" onclick="this.parentNode.style.display='none'   "></i>
-
     </div>
     <![endif]-->
 
@@ -816,17 +813,22 @@
         return flag;
     }
     if(!IsPC()){
-        $("body").html("<div class='container' style='background:#FDC0C0'> <h1>请通过电脑端浏览器进行访问哦~</h1></div>")
+        $("body").html("<div class=\"container\" style=\"background: #9e5647;height: 100%;color: #fff;text-align: center;\">\n" +
+            "    <i class=\"glyphicon glyphicon-warning-sign\" style=\"\n" +
+            "    font-size: 72px;\n" +
+            "    text-align: center;\n" +
+            "    display: block;\n" +
+            "    margin-top: 30px;\n" +
+            "\"></i><hr>\n" +
+            "    <h1>请使用电脑端浏览，以获取最佳阅读效果。 谢谢！ </h1>\n" +
+            "<p>Please use a desktop browser for the best viewing experience.<p></p><p> Thanks! Hope you enjoy our work!.</p> </p></div>")
     }
 </script>
-<!--<script src="stastic/js/scrollReveal.js"></script>-->
 <script src="stastic/js/superscroll/greensock/TweenMax.min.js"></script>
 <script src="stastic/js/superscroll/jquery.superscrollorama.js"></script>
 <script src="stastic/js/zoomify.min.js"></script>
 <script type="text/javascript">
     $('.zoom_img').zoomify();
-</script>
-<script>
     $(document).ready(function() {
         var controller = $.superscrollorama({
             playoutAnimations: false
